@@ -1,0 +1,93 @@
+/* style sheet for the home page ONLY!!! */
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+      background-color: #ffeed4;
+  }
+
+  a {
+      text-decoration: none;
+      /* color: #264653; */
+      color: inherit;
+  }
+
+  a:link {
+  color: #000;
+}
+
+a:hover {
+  color: #00AA86;
+}
+
+  .sidebar {
+      display: block;
+      position: fixed;
+      right: 0;
+      height: auto;
+      width: 25%;
+      margin-right: 33px;
+      margin-top: 33px;
+      text-align: right;
+  }
+  .sidebar-item {
+      list-style-type: none;
+      color: #000;
+      margin-top: 5px;
+      font-size: 37px;
+      font-family: 'Fredoka', sans-serif;
+  }
+
+  h1 {
+      font-size: 120px;
+      font-family: Fredoka;
+      word-spacing: 100vw;
+      margin-left: 33px;
+      color: black;
+  }
+  h2 {
+      font-size: 50px;
+      font-family: Fredoka;
+      text-align: center;
+
+  }
+  h3 {
+      font-size: 120px;
+      font-family: Fredoka;
+      margin-left: 33px;
+      color: #FF0006;
+     }
+
+  .subheading {
+      color: #ffeed4;
+      text-align: center;
+      font-family: Fredoka;
+      font-size: 30px;
+     }
+
+  .icons {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #000;
+         }
+
+  img {
+      width: 100%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40%;
+      max-width: 300px;
+        }
+
+  footer { 
+    margin-top: 40px;
+    background-color: #FF0006;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+        }
